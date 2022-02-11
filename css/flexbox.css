@@ -10,7 +10,12 @@
 
 .conteudoPrincipal-cursos {
     display:flex;
-    justify-content: space-around;
+    flex-wrap:wrap;
+    justify-content:flex-start; 
+}
+
+.conteudoPrincipal-cursos-link {
+    width:23%;
 }
 
 .rodapePrincipal-navMap-list {
