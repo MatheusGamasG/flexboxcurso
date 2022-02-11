@@ -13,6 +13,13 @@
     justify-content: space-around;
 }
 
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    height:260px;
+}
+
 .rodapePrincipal-patrocinadores .container {
     display:flex;
     justify-content:space-between;
@@ -27,4 +34,8 @@
 
 .rodapePrincipal-contatoForm {
     width:25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display:flex;
 }
